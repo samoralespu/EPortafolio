@@ -18,7 +18,7 @@
                   />
                 </div>
                 <div class="name">
-                  <h3 class="title">Santiago Morales Pulido</h3>
+                  <h3 class="title">Santiago Alejandro Morales Pulido</h3>
                   <h6>System engineer student</h6>
                   <md-button
                     href="javascript:void(0)"
