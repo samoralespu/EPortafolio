@@ -80,24 +80,16 @@ export default {
   data() {
     return {
       tabPane1: [
-        { image: require("@/assets/img/java_html_css.png") },
-        { image: require("@/assets/img/react.png") },
-        { image: require("@/assets/img/adv-2.jpg") },
-        { image: require("@/assets/img/vue-logo.png") }
+        { image: require("@/assets/img/IDE1.jpg") },
+        { image: require("@/assets/img/IDE2.jpg") },
+        { image: require("@/assets/img/IDE3.png") },
+        { image: require("@/assets/img/IDE4.png") }
       ],
       tabPane2: [
-        { image: require("@/assets/img/examples/olu-eletu.jpg") },
-        { image: require("@/assets/img/examples/clem-onojeghuo.jpg") },
-        { image: require("@/assets/img/examples/cynthia-del-rio.jpg") },
-        { image: require("@/assets/img/examples/mariya-georgieva.jpg") },
-        { image: require("@/assets/img/examples/clem-onojegaw.jpg") }
-      ],
-      tabPane3: [
-        { image: require("@/assets/img/examples/mariya-georgieva.jpg") },
-        { image: require("@/assets/img/examples/studio-3.jpg") },
-        { image: require("@/assets/img/examples/clem-onojeghuo.jpg") },
-        { image: require("@/assets/img/examples/olu-eletu.jpg") },
-        { image: require("@/assets/img/examples/studio-1.jpg") }
+        { image: require("@/assets/img/Pirate2.jpg") },
+        { image: require("@/assets/img/IDE2.jpg") },
+        { image: require("@/assets/img/IDE3.png") },
+        { image: require("@/assets/img/IDE4.png") }
       ]
     };
   },

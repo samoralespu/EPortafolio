@@ -72,6 +72,12 @@
                       Great projects, programs, and applications have been written in these languages starting with UNIX one of the first operating systems developed also in Bell Labs, from which Linux emerged, and was the inspiration to create Windows and Mac OS, also developed in C and C++. These languages have also served to develop great websites like Amazon, Facebook, Google (Chromium browser and Google file system), Android, and many more programs that we use daily. But it is not only about programs, but they have also been used in huge projects one of the most recent the launch of the crew dragon the SpaceX spacecraft who managed to bring a couple of astronauts to the ISS again. For all this and more, these programming languages have been and continue to be important.
                     </p>
                   </div>
+                  <div class="md-layout-item md-size-15 mr-auto">
+                    <img :src="tabPane2[0].image" class="rounded" />
+                    <img :src="tabPane2[1].image" class="rounded" />
+                    <img :src="tabPane2[2].image" class="rounded" />
+                    <img :src="tabPane2[3].image" class="rounded" />
+                  </div>
                 </div>
               </template>
             </tabs>
@@ -98,18 +104,10 @@ export default {
         { image: require("@/assets/img/vue-logo.png") }
       ],
       tabPane2: [
-        { image: require("@/assets/img/examples/olu-eletu.jpg") },
-        { image: require("@/assets/img/examples/clem-onojeghuo.jpg") },
-        { image: require("@/assets/img/examples/cynthia-del-rio.jpg") },
-        { image: require("@/assets/img/examples/mariya-georgieva.jpg") },
-        { image: require("@/assets/img/examples/clem-onojegaw.jpg") }
-      ],
-      tabPane3: [
-        { image: require("@/assets/img/examples/mariya-georgieva.jpg") },
-        { image: require("@/assets/img/examples/studio-3.jpg") },
-        { image: require("@/assets/img/examples/clem-onojeghuo.jpg") },
-        { image: require("@/assets/img/examples/olu-eletu.jpg") },
-        { image: require("@/assets/img/examples/studio-1.jpg") }
+        { image: require("@/assets/img/c and cplus.jpg") },
+        { image: require("@/assets/img/c and cplus2.jpg") },
+        { image: require("@/assets/img/cplus3.png") },
+        { image: require("@/assets/img/cplus4.png") }
       ]
     };
   },

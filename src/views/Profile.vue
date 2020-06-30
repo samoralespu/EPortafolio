@@ -114,12 +114,6 @@
                   </div>
                 </div>
               </template>
-              <template slot="tab-pane-3">
-                <div class="md-layout md-centered">
-                  <div class="md-layout-item md-size-25 md-centered">
-                  </div>
-                </div>
-              </template>
             </tabs>
           </div>
         </div>
