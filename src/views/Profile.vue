@@ -84,7 +84,7 @@
                   <div class="md-layout-item md-size-15 mr-auto">
                     <img :src="tabPane1[1].image" class="rounded"/>
                     <a
-                      href="https://agricolab-un.firebaseapp.com/#/indexAgriColab"
+                      href="https://agricolab-un.web.app/"
                       target="_blank"
                     >
                       <img :src="tabPane1[0].image" class="rounded" />

@@ -6,8 +6,15 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-            <h1 class="title">My writings.</h1>
+            <h1 class="title">My synopsis.</h1>
           </div>
+          <br />
+          <md-button
+            href="https://www.youtube.com/watch?v=g4vOR9paav4&t"
+            class="md-success md-lg"
+            target="_blank"
+          ><i class="fas fa-play"></i>My first podcast!</md-button
+          >
         </div>
       </div>
     </parallax>
@@ -20,8 +27,8 @@
           </div>
           <div class="profile-tabs">
             <tabs
-              :tab-name="['Vue', 'In progress', 'Progress too']"
-              :tab-icon="['integration_instructions', 'autorenew', 'cached']"
+              :tab-name="['VueJs', 'C and C++']"
+              :tab-icon="['integration_instructions', 'integration_instructions']"
               plain
               nav-pills-icons
               color-button="success"
@@ -53,14 +60,17 @@
               </template>
               <template slot="tab-pane-2">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
-
-                  </div>
-                </div>
-              </template>
-              <template slot="tab-pane-3">
-                <div class="md-layout md-centered">
-                  <div class="md-layout-item md-size-25 md-centered">
+                  <div class="md-layout-item md-size-50 ml-auto">
+                    <H4>the programmings language that revolutionized humanity</H4>
+                    <p>
+                      It is evident that programming languages have been important for humanity without them we would not get to where we are today and technology would not be as we know it. Many of them have programmed great applications, operating systems, games, and other programs that we use on a daily basis. But a couple of them stand out from the rest, as they have significantly influenced everything we use on a daily basis.
+                    </p>
+                    <p>
+                      The first one is C, C was created in the early 1970s by Dennis M. Ritchie an employee from Bell Labs. This language emerged as a complement to another called B (Birth), which was incomplete and lacked different functionalities (like data-types), these being added by C., On the other hand, is C++, this programming language was invented in the very early 80s by Bjarne Stroustrup which wanted to add some features to C making it to support Object Oriented concept. Its name comes from the ++ operator, which means an is an operator for incrementing a variable, which gives some insight into how Stroustrup regarded the language.
+                    </p>
+                    <p>
+                      Great projects, programs, and applications have been written in these languages starting with UNIX one of the first operating systems developed also in Bell Labs, from which Linux emerged, and was the inspiration to create Windows and Mac OS, also developed in C and C++. These languages have also served to develop great websites like Amazon, Facebook, Google (Chromium browser and Google file system), Android, and many more programs that we use daily. But it is not only about programs, but they have also been used in huge projects one of the most recent the launch of the crew dragon the SpaceX spacecraft who managed to bring a couple of astronauts to the ISS again. For all this and more, these programming languages have been and continue to be important.
+                    </p>
                   </div>
                 </div>
               </template>

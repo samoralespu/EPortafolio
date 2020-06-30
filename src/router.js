@@ -6,7 +6,8 @@ import Login from "./views/Login.vue";
 import Profile from "./views/Profile.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
-import Writings from "./views/Writings";
+import Synopsis from "./views/Synopsis";
+import Reviews from "./views/Reviews";
 
 Vue.use(Router);
 
@@ -48,9 +49,18 @@ export default new Router({
       }
     },
     {
-      path: "/writings",
-      name: "writings",
-      components: { default: Writings, header: MainNavbar, footer: MainFooter },
+      path: "/Synopsis",
+      name: "Synopsis",
+      components: { default: Synopsis, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 200 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/Reviews",
+      name: "reviews",
+      components: { default: Reviews, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 200 },
         footer: { backgroundColor: "black" }
