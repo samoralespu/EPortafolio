@@ -56,11 +56,6 @@
                   <div class="md-layout-item md-size-25 ml-auto">
 
                   </div>
-                  <div class="md-layout-item md-size-50 mr-auto">
-                    <p>
-
-                    </p>
-                  </div>
                 </div>
               </template>
               <template slot="tab-pane-3">
